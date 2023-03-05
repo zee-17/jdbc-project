@@ -10,6 +10,11 @@ select * from employees;
 -- display all employees based salary in asc order
 select * from EMPLOYEES order by SALARY asc;
 
+select * from  EMPLOYEES
+order by FIRST_NAME,LAST_NAME DESC;
+select * from  EMPLOYEES
+order by FIRST_NAME;
+
 -- display all employees based salary in desc order
 
 select * from EMPLOYEES order by SALARY desc;

@@ -1,5 +1,17 @@
 select * from employees;
 
+select * from EMPLOYEES
+order by 8 desc;
+
+select first_name,last_name,email from EMPLOYEES
+order by 3 desc;
+select count(*) from EMPLOYEES;
+
+select count(DEPARTMENT_ID) from EMPLOYEES
+where DEPARTMENT_ID is null;
+
+
+
 select * from eMpLoYeeS;
 
 select * from departments;
